@@ -1,0 +1,65 @@
+<!--#TODO Set 'active' class where users is currently-->
+<nav class="navbar navbar-expand-lg navbar-light navbar-trans fixed-top">
+    <button class="navbar-toggler border-0" type="button">
+      <i class="fas fa-bars nav-link text-light"></i>
+    </button>
+    <div id="fullscreen-navbar">
+      <button class="navbar-toggler display-block-imp border-0" type="button">
+        <i class="fas fa-times nav-link-mob text-dark"></i>
+      </button>
+      <ul class="ls-none font-11">
+          {% for c in category %}
+          <li class="nav-item ml-4 mt-3">
+            <a class="nav-link-mob ml-4 mr-2 text-dark" href="../{{ c.category_slug }}">{{ c.category_name }}</a>
+          </li>
+          {% endfor %}
+          <li class="nav-item ml-4 mt-5">
+
+          {% if user.is_authenticated %}
+            <a class="nav-link-mob ml-4 mr-2 text-dark" href="../user/dashboard">My account</a>
+          {% else %}
+            <a class="nav-link-mob ml-4 mr-2 text-dark login" href="#">Login</a>
+          {% endif %}
+          </li>
+          <li class="nav-item ml-4 mt-3"> 
+              <a class="nav-link-mob ml-4 mr-2 text-dark" href="../search">Search</a>
+          </li>
+          <li class="nav-item ml-4 mt-3">
+              <a class="nav-link-mob ml-4 mr-2 text-dark" href="../shop/cart">Cart(<span class="totalPriceInCart">0</span>)</a>
+          </li>
+          <li class="nav-item ml-4 mt-3"> 
+              <a class="nav-link-mob ml-4 mr-2 text-dark" href="../aboutus">About us</a>
+          </li>
+        </ul>
+    </div>
+    <a class="navbar-brand font-30 font-spec ml-4 text-light" href="/">Clothyy</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 font-11 ml-4">
+        {% for c in category %}
+        <li class="nav-item ml-2 mr-2">
+            <a class="nav-link text-light" href="../{{c.category_slug}}">{{c.category_name}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      
+      <ul class="navbar-nav mr-right mt-2 mt-lg-0 font-11 ml-4 mr-4 text-light">
+        <li class="nav-item">
+            {% if user.is_authenticated %}
+            <a class="nav-link ml-2 mr-2 text-light" href="../user/dashboard">My account</a>
+            {% else %}
+            <a class="nav-link ml-2 mr-2 text-light login" href="#">Login</a>
+            {% endif %}
+            
+        </li>
+        <li class="nav-item"> 
+            <a class="nav-link ml-2 mr-2 text-light" href="../search">Search</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link ml-2 mr-2 text-light" href="../shop/cart">Cart(<span class="totalPriceInCart">0</span>)</a>
+        </li>
+        <li class="nav-item"> 
+            <a class="nav-link ml-2 mr-2 text-light" href="../aboutus">About us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
