@@ -3,4 +3,4 @@ Lib
 Scripts
 tcl
 media/product_images
-clothy/staticfiles
+cloth_leo/static files
