@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+    .d-none-xl{
+        display: none;
+    }
+    .w-33{
+        width: 50% !important;
+    }
+    .pb-600{
+        padding-bottom: 350px !important;
+    }
+    .mr-3-small{
+        margin-right: 16px !important;
+    }
+    .w-90{
+        width: 100% !important;
+    }
+    .w-45{
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .vh100-l-vh80-m-vh60-s{
+        height: 80vh;
+    }
+    #pant-and-dress{
+        width:80%;
+        margin-right: 0px !important;
+    }
+    .mt-0-lg{
+        margin-top: 0px;
+    }
+    .d-none-lg{
+        display: none;
+    }
+    .border-lg-0{
+        border: 0px !important;
+    }
+    .d-none-xl{
+        display: block;
+    }
+    .w-100-lg{
+        width: 100% !important;
+    }
+    .w-33{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .vh100-l-vh80-m-vh60-s{
+        height: 60vh;
+    }
+    .w47-l-w100-m{
+        width: 80%;
+    }
+    
+    .align-on-small{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    #pant-and-dress{
+        width:100%;
+        margin-right: 0px !important;
+    }
+    .margin-zero-xs{
+        margin-left: 0px !important;
+    }
+    #search-bar{
+        font-size: 1.7rem;
+    }
+    .fa-search{
+        font-size: 1.7rem;
+    }
+    .pb-600{
+        padding-bottom: 600px !important;
+    }
+    .d-none-md{
+        display: none !important;
+    }
+    .d-block-md{
+        display: block !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    h1{
+        font-size: 1.5em;
+    }
+    .centered{
+        font-size: 1rem;
+    }
+    .featured-h2{
+        font-size: 1.2rem;
+    }
+    .featured-desc p{
+        font-size: 1rem;
+    }
+    .featured-desc p a{
+        font-size: 1rem;
+    }
+    h3 span{
+        font-size: 1rem;
+    }
+    .margin-zero-xs{
+        margin-left: 0px !important;
+    }
+    .mt-0-small{
+        margin-top: 0px !important;
+    }
+    .font-11-sm{
+        font-size: 1.1rem;
+    }
+    .change-on-sm{
+        font-size: 1rem;
+        width: 80% !important;
+    }
+    #btn{
+        width: 75%;
+    }
+    .shipping{
+        width: 100%;
+    }
+    .h2-holder h2{
+        padding: 0px;
+        font-size: 1.5rem;
+    }
+    .font-small-xs{
+        font-size: 0.7rem;
+    }
+    #search-bar{
+        font-size: 1.2rem;
+    }
+    .fa-search{
+        font-size: 1.2rem;
+    }
+    .modal-holder{
+        width: 300px;
+    }
+    #btnAddToCart{
+        font-size: 0.8rem;
+    }
+    .pb-100-sm{
+        padding-bottom: 200px;
+    }
+}
+
+
+
+

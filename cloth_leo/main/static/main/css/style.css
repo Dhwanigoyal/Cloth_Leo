@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+.font-20{
+    font-size: 2rem;
+}
+.font-17{
+    font-size: 1.7rem;
+}
+.font-30{
+    font-size: 3rem;
+}
+.font-15{
+    font-size: 1.5rem;
+}
+.font-13{
+    font-size: 1.3rem;
+}
+.font-11{
+    font-size: 1.1rem;
+}
+.font-08{
+    font-size: 0.8rem;
+}
+.font-spec{
+    font-family: 'Courgette', cursive;
+}
+.mh-55vh{
+    max-height: 55vh;
+}
+
+.set-white-navbar{
+    background-color: white;
+    transition: 0.2s ease-in-out;
+}
+.text-light{
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+.text-dark{
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+.text-red{
+    color: red;
+}
+#fullscreen-navbar{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 100vh;
+    background-color: white;
+}
+.display-block-imp{
+    display: block !important;
+    margin-top: 35px !important;
+    margin-left: 35px !important;
+}
+.ls-none{
+    list-style-type: none;
+}
+.navbar-nav li a:hover{
+    color: #7e8187 !important;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.vh100-l-vh80-m-vh60-s{
+    height: 100vh;
+}
+.pb-600{
+    padding-bottom: 250px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+#message-block{
+    height: 30px; 
+    position:fixed; 
+    bottom: 0px; left: 0px; 
+    background-color: black; 
+    color: white; 
+    z-index: 9999;
+}
+.display-none{
+    display: none;
+}
+.border-0{
+    border: 0px;
+}
+/* index.html */
+#bg-img-main{
+    background-image: url('../../main/img/bg-img.jpg');
+}
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custom-container{
+    max-width: 1400px;
+    margin: auto;
+}
+.mt-10{
+    margin-top:5%;
+}
+.pt-10{
+    padding-top: 10%;
+}
+.mb-5pct{
+    margin-bottom:15%;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.opacity-6{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.img-holder img{
+    float: left !important;
+}
+
+.img-holder{
+    overflow: hidden;
+    transition: all .3s linear;
+    position: relative;
+}
+#featured-product-image{
+    width: 40%; 
+    margin-top: 10%; 
+    margin-bottom: 18%; 
+    opacity: 0;
+}
+.zoom-in{
+    transform: scale(1.2);
+    transition: all .5s linear;
+}
+
+.zoom-out{
+    transform: scale(1.0);
+    transition: all .5s linear;
+}
+.bg-gray{
+    background-color: #edf2ef
+}
+.fa-arrow-alt-circle-left{
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.fa-arrow-alt-circle-right{
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.w47-l-w100-m{
+    width: 47%;
+}
+/* categories.html */
+.vh60{
+    height: 60vh;
+}
+#bg-img-man{
+    background-image: url('../../main/img/bg-man.jpg');
+}
+#bg-img-woman{
+    background-image: url('../../main/img/bg-woman.jpg');
+}
+#bg-img-kids{
+    background-image: url('../../main/img/bg-kids.jpg');
+}
+.w-60{
+    width: 60%;
+}
+.w-45{
+    width: 45% !important;
+}
+.w-40{
+    width: 40% !important;
+}
+.w-90{
+    width: 90% !important;
+}
+.w-33{
+    width: 33% !important;
+}
+.product-in-category{
+    position: relative;
+}
+.view{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+}
+.underline-on-hover:hover{
+    text-decoration: underline;
+}
+/*product.html*/
+.mt-100px{
+    margin-top: 98px;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abs-top-left{
+    position: absolute;
+    top: 0px; 
+    left: 0px; 
+}
+.left-10{
+    left: 10%;
+}
+.left-90{
+    left: 90%;
+}
+#size{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.2rem;
+}
+#btnAddToCart{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.4rem;
+    width:50%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border: 0px;
+}
+#btnAddToCart:hover{
+    background-color: rgb(104, 103, 103);
+}
+.color-gray{
+    color: gray;
+}
+#product-img{
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+    opacity: 0;
+}
+
+/* modal.html */
+#background-modal{
+    width: 100%; 
+    height: 100vh;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+.modal-holder{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    background-color: white;
+    z-index: 10000;
+}
+.input{
+    border: 0; 
+    box-shadow: 0px;
+    outline: 0;
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+.input-holder{
+    width: 80%;
+}
+#loginBtn{
+    padding: 5px 20px;
+    border: 0px; 
+    background-color: rgb(78, 143, 78);
+    color: white;
+}
+#regBtn{
+    padding: 5px 20px;
+    border: 0px; 
+    background-color: rgb(78, 143, 78);
+    color: white;
+}
+.qwe{
+    margin: 0px !important;
+}
+.modal-header{
+    position: relative;
+}
+.close-modal{
+    position: absolute;
+    top: 5px; 
+    right: 5px;
+}
+/* cart.html */
+table tr th{
+    padding: 10px;
+}
+table tr td{
+    padding: 10px;
+}
+#cartChekoutBtn{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 0px;
+}
+#cartChekoutBtn:hover{
+    background-color: rgb(104, 103, 103);
+}
+/* checkout.html */
+#card-element{
+    border-radius: 0px;
+    width: 90%;
+}
+#submit-payment{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+}
+#submit-payment:hover{
+    background-color: rgb(104, 103, 103);
+}
+#card-element{
+    height: 2.4em; 
+    padding-top: .7em;
+}
+/* userinfo.html */
+#user-menu{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.d-none-xl{
+    display: none;
+}
+/* search.html */
+#search-button{
+    background-color: transparent;
+    border: 0px;
+}
